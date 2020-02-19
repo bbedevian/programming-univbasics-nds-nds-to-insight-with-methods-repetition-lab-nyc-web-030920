@@ -51,7 +51,7 @@ def total_gross(source)
   dir_totals = directors_totals(source) #the hash {name: total gross}
   dir_names = list_of_directors(source) #array [name, name ...]
   while i < dir_names.length do 
-    current_dir = dir_names[i]
+    current_dir = dir_names[i] #current director 
   total += dir_totals[current_dir]
   i+=1 
 end 
